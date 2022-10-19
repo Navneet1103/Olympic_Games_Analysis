@@ -1,6 +1,5 @@
 
-**Link of Adventure Works Dataset**	***https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms***
-
+**Link of Adventure Works Dataset**	***[Adventure Works Dataset]([https://duckduckgo.com](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms))***
 
 **Link of Dashboard** ***https://app.powerbi.com/viewr=eyJrIjoiMmIxNzljMjMtNmEyZC00ZWVhLWE5ZmItYjM5ZDE4YTIwZTUzIiwidCI6ImM5ODY2NzZmLTliMzktNGQwOC1iNGY4LWE2NjhlMGU4YzZhNSIsImMiOjN9***
 
