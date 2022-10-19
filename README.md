@@ -1,7 +1,8 @@
 
 **Link of Adventure Works Dataset**	***https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms***
+**Link of Dashboard** ***https://app.powerbi.com/viewr=eyJrIjoiMmIxNzljMjMtNmEyZC00ZWVhLWE5ZmItYjM5ZDE4YTIwZTUzIiwidCI6ImM5ODY2NzZmLTliMzktNGQwOC1iNGY4LWE2NjhlMGU4YzZhNSIsImMiOjN9***
+
 # Olympic_Games_Analysis
-**Link of Dashboard** *** https://app.powerbi.com/view?r=eyJrIjoiMmIxNzljMjMtNmEyZC00ZWVhLWE5ZmItYjM5ZDE4YTIwZTUzIiwidCI6ImM5ODY2NzZmLTliMzktNGQwOC1iNGY4LWE2NjhlMGU4YzZhNSIsImMiOjN9***
 
 ## Business Problem
 The challenge for this data analyst project is outlined below. This has been used continuously to ensure that the right data has been selected, transformed and used in the data visualization which is meant to be passed on to the business users.
