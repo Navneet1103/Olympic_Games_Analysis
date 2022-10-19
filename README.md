@@ -15,7 +15,6 @@ The necessary data was first put into a SQL database and afterwards transformed 
 ## Olympic Games View
 
 ```
-{
 SELECT
          [ID]
         ,[Name] AS 'Competitor Name' -- Renamed Column
@@ -40,5 +39,15 @@ SELECT
         ,CASE WHEN Medal = 'NA' THEN 'Not Registered' ELSE Medal END AS Medal -- Replaced NA with Not Registered
   FROM [olympic_games].[dbo].[athletes_event_results]
   WHERE RIGHT(Games,CHARINDEX(' ', REVERSE(Games))-1) = 'Summer' -- Where Clause to isolate Summer Season
-}
 ```
+
+## Calculations
+The following calculations were created in the Power BI reports using DAX (Data Analysis Expressions). To lessen the extent of coding, the re-use of measures (measure branching) was emphasized:
+
+Number of Competitors:
+
+==Number of Competitors = DISTINCTCOUNT( ‘Olympic Data'[ID] )==
+
+==Number of Medals = COUNTROWS( ‘Olympic Data’ )==
+
+Number Of Medals (Registered) = CALCULATE( [# of Medals], FILTER( ‘Olympic Data’, ‘Olympic Data'[Medal] = “Bronze” || ‘Olympic Data’ [Medal] = “Gold” || ‘Olympic Data'[Medal] = “Silver” ))
