@@ -44,10 +44,14 @@ SELECT
 ## Calculations
 The following calculations were created in the Power BI reports using DAX (Data Analysis Expressions). To lessen the extent of coding, the re-use of measures (measure branching) was emphasized:
 
-Number of Competitors:
+**Number of Competitors:**
 
-==Number of Competitors = DISTINCTCOUNT( ‘Olympic Data'[ID] )==
+*Number of Competitors = DISTINCTCOUNT( ‘Olympic Data'[ID] )*
 
-==Number of Medals = COUNTROWS( ‘Olympic Data’ )==
+*Number of Medals = COUNTROWS( ‘Olympic Data’ )*
 
 Number Of Medals (Registered) = CALCULATE( [# of Medals], FILTER( ‘Olympic Data’, ‘Olympic Data'[Medal] = “Bronze” || ‘Olympic Data’ [Medal] = “Gold” || ‘Olympic Data'[Medal] = “Silver” ))
+
+## Olympic Games Analysis
+The finished dashboard consist of visualizations and filters that gives an easy option for the end users to navigate the summer games through history. Some possibilities are to filter by period using year, nation code to focus on one country or look into either a competitor or specific sports over time.
+![This is an image](https://github.com/Navneet1103/Olympic_Games_Analysis/blob/main/Analysis_Screenshot.jpg)
